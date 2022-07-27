@@ -1,4 +1,4 @@
-import { ProductCard } from "../components/ProductCard";
+import { ProductCard } from "../components/index";
 
 export const ShoppingPage = () => {
   const product = {
@@ -21,7 +21,7 @@ export const ShoppingPage = () => {
         <ProductCard product={product}>
           <ProductCard.Image />
           <ProductCard.Title title={"Cafe"} />
-          <ProductCard.ItemHandler counter={0} increaseBy={() => {}} />
+          <ProductCard.ItemHandler />
         </ProductCard>
       </div>
     </div>
